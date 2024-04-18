@@ -1,0 +1,1574 @@
+div.AG3-NES   /**********FULL block***********/
+{
+  position: absolute;
+  top: 6700px;
+  
+}
+
+h2.AG3-NES-Title
+{
+  font-size: 2.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 10px;
+  /* margin-top: 225px; */
+
+  border-radius: 3px;
+  border-top: double 8px rgb(65, 0, 89);
+  border-bottom: double 8px rgb(65, 0, 89);
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1175px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform: translateX(-1%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+h2.AG3-NES-subT
+{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 5px;
+
+  border:2px solid #145858;
+  border-radius: 3px;
+  border-color: black;
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1273px; /*The higher the px, the lower down the page */
+  transform: translateX(23%);
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+/**********************************************EFFECTS**********************************************/
+
+div.AG3-Eff     /**********Effects Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #b883d7;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(15%);
+  text-align: center;
+  white-space: nowrap;
+
+  width: 532px;
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG3-BI /**********Behavioural Issues BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: #d9a2ea;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 233.5px;  /******630px in total******/
+
+  margin-left: 100px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-BIT     /********Behavioural Issues TITLE*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; 
+
+  margin-top: 5px;
+
+}
+
+ul.AG3-BIP /**********Behavioural Issues PARAGRAPGH**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: left;
+
+margin-left: -27px;
+margin-top: -12px;
+list-style-type: none;
+
+word-wrap: break-word;
+}
+
+/********************Difficulties****************/
+
+div.AG3-Diff /**********Difficulties BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2bbed;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 334px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-DiffT     /********Difficulties Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-DiffP /**********Difficulties paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/*********************Accidents***************/
+
+div.AG3-Acc /**********Accidents block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2c8e7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 215px;  /******630px in total******/
+
+  margin-left: 535px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-AccT     /********Accidents Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-AccP /**********Accidents paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+/*****************************************CAUSES / FACTORS**********************************************/
+
+div.AG3-Causes /**********Causes Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #ef89ce;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 535px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; 
+  transform:translateX(119%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+
+}
+
+/***************************Nighttime Fears****************/
+
+div.AG3-NF /**********Nighttime Fears block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #f0a4d8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 781px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-NFT     /********Nighttime Fears Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-NFP /**********Nighttime Fears paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+/***************************Overstimulation****************/
+
+div.AG3-Os /**********Monitoring block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e7b2d7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 222px;  /******630px in total******/
+
+  margin-left: 981px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-OsT     /********Overstimulation Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-OsP /**********Overstimulation paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+
+}
+
+
+/*******************Routine Change******************/
+
+div.AG3-RC /**********Routine Change block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ebc8e3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 230px;  /******630px in total******/
+
+  margin-left: 1203px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-RCT     /********Routine Change Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-RCP /**********Routine Change paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+/*************************************************Tips*************************************************/
+
+div.AG3-Tips     /**********Consistent Routine Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #887fdb;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 590px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1692px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(62%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG3-CR                           /**********Mood and Beh block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #a39ce3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 251px;  /******630px in total******/
+
+  margin-left: 440px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-CRT     /********Mood and Beh Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+ul.AG3-CRP /**********Mood and Beh paragraph**************/
+{
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: left;
+
+  margin-left: -27px;
+  margin-top: -12px;
+  list-style-type: none;
+
+  word-wrap: break-word;
+}
+
+/********************Environment****************/
+
+div.AG3-Env /**********Environment block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #bcb7e8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 211px;  /******630px in total******/
+
+  margin-left: 692px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-EnvT     /************Environment Title*************/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-EnvP /*************Environment paragraph****************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Limit Screen Time ****************/
+
+div.AG3-LST /**********Limit Screen Time block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #d1ceee;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 245px;  /******630px in total******/
+
+  margin-left: 903px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-LSTT     /********Limit Screen Time  Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-LSTP /***f*******Limit Screen Time  paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+
+div.AG3-ES   /**********FULL block***********/
+{
+ position: absolute;
+ top: 7800px;
+}
+
+h2.AG3-ES-Title
+{
+  font-size: 2.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 10px;
+  /* margin-top: 225px; */
+
+  border-radius: 3px;
+  border-top: double 8px rgb(65, 0, 89);
+  border-bottom: double 8px rgb(65, 0, 89);
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1175px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform: translateX(13%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+h2.AG3-ES-subT
+{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 5px;
+
+ border:2px solid #145858;
+ border-radius: 3px;
+ border-color: black;
+ background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1273px; /*The higher the px, the lower down the page */
+  transform: translateX(19%);
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+
+/*************************************************DOES**********************************************/
+
+div.AG3-Does     /**********Does Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #b883d7;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(15%);
+  text-align: center;
+  white-space: nowrap;
+
+  width: 532px;
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG3-CD /**********Cognitive Development BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: #d9a2ea;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 233.5px;  /******630px in total******/
+
+  margin-left: 100px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-CDT     /********Cognitive Development TITLE*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-CDP /**********Cognitive Development PARAGRAPGH**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+
+word-wrap: break-word;
+}
+
+/********************Emotional Regulation****************/
+
+div.AG3-ER /**********Emo Reg BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2bbed;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 334px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-ERT     /********Emo Reg Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-ERP /**********Emo Reg paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Physical Growth****************/
+
+div.AG3-PH /**********Physical Health block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2c8e7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 215px;  /******630px in total******/
+
+  margin-left: 535px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-PHT     /********Physical Health Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-PHP /**********Physical Health paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+
+
+
+
+/*****************************************MAINTAIN**********************************************/
+
+div.AG3-Maintain /**********Maintain Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #ef89ce;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 535px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; 
+  transform:translateX(119%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+
+}
+
+
+/***************************Consistency****************/
+
+div.AG3-Con /**********Cons block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #f0a4d8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 781px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-ConT     /********Cons Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-ConP /**********Cons paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/***************************Monitoring****************/
+
+div.AG3-Mon /**********Monitoring block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e7b2d7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 222px;  /******630px in total******/
+
+  margin-left: 981px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-MonT     /********Mon Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-MonP /**********Mon paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+
+}
+
+
+
+/*******************Addressing******************/
+
+div.AG3-Add /**********Addressing block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ebc8e3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 230px;  /******630px in total******/
+
+  margin-left: 1203px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-AddT     /********Add Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-AddP /**********Add paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/*************************************************BENEFITS*************************************************/
+
+div.AG3-Benefits     /**********Mood and Behaviour Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #887fdb;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 590px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1692px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(62%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG3-IB                            /**********Improved Behaviour block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #a39ce3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 251px;  /******630px in total******/
+
+  margin-left: 440px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-IBT     /********Improved Behaviour Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-IBP /**********Improved Behaviour paragraph**************/
+{
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: center;
+  
+  word-wrap: break-word;
+}
+
+/********************Immune System****************/
+
+div.AG3-IS /**********Immune System block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #bcb7e8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 211px;  /******630px in total******/
+
+  margin-left: 692px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-IST     /************Immune System Title*******8******/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-ISP /*************Immune System paragraph****************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Learning and Memory****************/
+
+div.AG3-LaM /**********Learning and Memory block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #d1ceee;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 245px;  /******630px in total******/
+
+  margin-left: 903px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG3-LaMT     /********Learning and Memory Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG3-LaMP /**********Learning and Memory paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+
+word-wrap: break-word;
+}
+
+
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+
+div.TMS3   /**********FULL block***********/
+{
+ position: absolute;
+ top: 8900px;
+}
+
+h2.TMS3-Title
+{
+  font-size: 2.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 10px;
+  /* margin-top: 225px; */
+
+  border-radius: 3px;
+  border-top: double 8px rgb(65, 0, 89);
+  border-bottom: double 8px rgb(65, 0, 89);
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1175px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform: translateX(5%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+h2.TMS3-subT
+{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 5px;
+
+ border:2px solid #145858;
+ border-radius: 3px;
+ border-color: black;
+ background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1273px; /*The higher the px, the lower down the page */
+  transform: translateX(22%);
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+/*************************************************EFFECT**********************************************/
+
+
+div.TMS3-Eff     /**********Does Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #b883d7;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(15%);
+  text-align: center;
+  white-space: nowrap;
+
+  width: 532px;
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.TMS3-IL /**********Behavioural Issues BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: #d9a2ea;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 233.5px;  /******630px in total******/
+
+  margin-left: 100px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-ILT     /********Behavioural Issues TITLE*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+p.TMS3-ILP /**********Behavioural Issues PARAGRAPGH**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Mood Chnages****************/
+
+div.TMS3-Sl /**********Mood Chnages BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2bbed;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 334px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-SlT     /********Mood Changes Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-SlP /**********Mood Changes paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Cognitive Function****************/
+
+div.TMS3-DS /**********Cognitive Function block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2c8e7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 215px;  /******630px in total******/
+
+  margin-left: 535px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-DST     /********Cognitive Function Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-DSP /**********Cognitive Function paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+
+/*****************************************CAUSES / FACTORS**********************************************/
+
+div.TMS3-Causes /**********Causes Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #ef89ce;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 535px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; 
+  transform:translateX(119%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+
+}
+
+
+/***************************Separation Anxiety****************/
+
+div.TMS3-In /**********Separation Anxiety block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #f0a4d8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 781px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-InT     /********Separation Anxiety Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-InP /**********Separation Anxiety paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/***************************Teething****************/
+
+div.TMS3-Ov /**********Teething block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e7b2d7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 222px;  /******630px in total******/
+
+  margin-left: 981px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-OvT     /********Teething Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-OvP /**********Teething paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+
+}
+
+
+
+/*******************Routine Change******************/
+
+div.TMS3-Fe /**********Addressing block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ebc8e3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 230px;  /******630px in total******/
+
+  margin-left: 1203px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-FeT     /********Routine Change Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+p.TMS3-FeP /**********Routine Change paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+list-style-type: none;
+word-wrap: break-word;
+}
+
+
+
+/*************************************************TIPS*************************************************/
+
+div.TMS3-Tips     /**********Tips Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #887fdb;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 590px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1692px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(62%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.TMS3-SS                            /**********Consistent Routine block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #a39ce3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 251px;  /******630px in total******/
+
+  margin-left: 440px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-SST     /********Consistent Routine Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-SSP /**********Consistent Routine paragraph**************/
+{
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: center;
+  
+  word-wrap: break-word;
+}
+
+/********************Environment****************/
+
+div.TMS3-Env /**********Environment block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #bcb7e8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 211px;  /******630px in total******/
+
+  margin-left: 692px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-EnvT     /************Environment Title*******8******/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-EnvP /*************Environment paragraph****************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Limit Screen Time****************/
+
+div.TMS3-LST /**********Limit Screen Time block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #d1ceee;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 245px;  /******630px in total******/
+
+  margin-left: 903px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS3-LSTT     /********Limit Screen Time Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS3-LSTP /**********Limit Screen Time paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+
+word-wrap: break-word;
+}

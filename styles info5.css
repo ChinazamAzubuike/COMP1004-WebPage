@@ -1,0 +1,1578 @@
+div.AG5-NES   /**********FULL block***********/
+{
+ position: absolute;
+ top: 13300px;
+  
+}
+
+h2.AG5-NES-Title
+{
+  font-size: 2.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 10px;
+  /* margin-top: 225px; */
+
+  border-radius: 3px;
+  border-top: double 8px rgb(65, 0, 89);
+  border-bottom: double 8px rgb(65, 0, 89);
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1175px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform: translateX(-1%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+h2.AG5-NES-subT
+{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 5px;
+
+  border:2px solid #145858;
+  border-radius: 3px;
+  border-color: black;
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1273px; /*The higher the px, the lower down the page */
+  transform: translateX(23%);
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+/**********************************************EFFECTS**********************************************/
+
+div.AG5-Eff     /**********Effects Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #b883d7;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(15%);
+  text-align: center;
+  white-space: nowrap;
+
+  width: 532px;
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG5-APe /**********Cog Health BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: #d9a2ea;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 233.5px;  /******630px in total******/
+
+  margin-left: 100px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-APeT     /********Cog Function TITLE*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; 
+
+  margin-top: 5px;
+
+}
+
+p.AG5-APeP /**********Cog Function PARAGRAPGH**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Emotional well-being****************/
+
+div.AG5-MC /**********Emotional well-being BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2bbed;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 334px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-MCT     /********Emotional well-being Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-MCP /**********Emotional well-being paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/*********************Accidents***************/
+
+div.AG5-RT /**********Academic Performance block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2c8e7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 215px;  /******630px in total******/
+
+  margin-left: 535px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-RTT     /********Academic Performance Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+ul.AG5-RTP /**********Academic Performance paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: left;
+
+margin-left: -27px;
+margin-top: -12px;
+
+list-style-type: none;
+word-wrap: break-word;
+}
+
+
+/*****************************************CAUSES / FACTORS**********************************************/
+
+div.AG5-Causes /**********Causes Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #ef89ce;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 535px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; 
+  transform:translateX(119%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+
+}
+
+/***************************Nighttime Fears****************/
+
+div.AG5-ST /**********Nighttime Fears block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #f0a4d8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 781px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-STT     /********Nighttime Fears Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-STP /**********Nighttime Fears paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+/***************************Overstimulation****************/
+
+div.AG5-SA /**********Monitoring block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e7b2d7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 222px;  /******630px in total******/
+
+  margin-left: 981px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-SAT     /********Overstimulation Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-SAP /**********Overstimulation paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+
+}
+
+
+/*******************Routine Change******************/
+
+div.AG5-AP /**********Routine Change block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ebc8e3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 230px;  /******630px in total******/
+
+  margin-left: 1203px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-APT     /********Routine Change Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-APP /**********Routine Change paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+/*************************************************Tips*************************************************/
+
+div.AG5-Tips     /**********Consistent Routine Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #887fdb;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 590px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1692px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(62%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG5-CR                           /**********Mood and Beh block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #a39ce3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 251px;  /******630px in total******/
+
+  margin-left: 440px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-CRT     /********Mood and Beh Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+ul.AG5-CRP /**********Mood and Beh paragraph**************/
+{
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: left;
+
+  margin-left: -27px;
+  margin-top: -12px;
+  list-style-type: none;
+
+  word-wrap: break-word;
+}
+
+/********************Environment****************/
+
+div.AG5-Ex /**********Environment block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #bcb7e8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 211px;  /******630px in total******/
+
+  margin-left: 692px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-ExT     /************Environment Title*************/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-ExP /*************Environment paragraph****************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Limit Screen Time ****************/
+
+div.AG5-LS /**********Limit Screen Time block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #d1ceee;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 245px;  /******630px in total******/
+
+  margin-left: 903px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-LST     /********Limit Screen Time  Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-LSP /**********Limit Screen Time  paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+/**************************************************AG3-ES****************************************/
+
+div.AG5-ES   /**********FULL block***********/
+{
+  position: absolute;
+  top: 14400px;
+}
+
+h2.AG5-ES-Title
+{
+  font-size: 2.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 10px;
+  /* margin-top: 225px; */
+
+  border-radius: 3px;
+  border-top: double 8px rgb(65, 0, 89);
+  border-bottom: double 8px rgb(65, 0, 89);
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1175px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform: translateX(6%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+h2.AG5-ES-subT
+{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 5px;
+
+ border:2px solid #145858;
+ border-radius: 3px;
+ border-color: black;
+ background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1273px; /*The higher the px, the lower down the page */
+  transform: translateX(23%);
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+
+/*************************************************DOES**********************************************/
+
+div.AG5-Does     /**********Does Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #b883d7;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(15%);
+  text-align: center;
+  white-space: nowrap;
+
+  width: 532px;
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG5-PH /**********Cognitive Development BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: #d9a2ea;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 233.5px;  /******630px in total******/
+
+  margin-left: 100px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-PHT     /********Cognitive Development TITLE*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+p.AG5-PHP /**********Cognitive Development PARAGRAPGH**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+
+word-wrap: break-word;
+}
+
+/********************Emotional Regulation****************/
+
+div.AG5-EWB /**********Emo Reg BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2bbed;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 334px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-EWBT     /********Emo Reg Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-EWBP /**********Emo Reg paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Physical Growth****************/
+
+div.AG5-AS /**********Physical Health block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2c8e7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 215px;  /******630px in total******/
+
+  margin-left: 535px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-AST     /********Physical Health Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-ASP /**********Physical Health paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+
+
+
+
+/*****************************************MAINTAIN**********************************************/
+
+div.AG5-Maintain /**********Maintain Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #ef89ce;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 535px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; 
+  transform:translateX(119%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+
+}
+
+
+/***************************Consistency****************/
+
+div.AG5-Con /**********Cons block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #f0a4d8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 781px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-ConT     /********Cons Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-ConP /**********Cons paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/***************************Monitoring****************/
+
+div.AG5-Mon /**********Monitoring block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e7b2d7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 222px;  /******630px in total******/
+
+  margin-left: 981px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-MonT     /********Mon Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-MonP /**********Mon paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+
+}
+
+
+
+/*******************Addressing******************/
+
+div.AG5-Add /**********Addressing block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ebc8e3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 230px;  /******630px in total******/
+
+  margin-left: 1203px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-AddT     /********Add Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-AddP /**********Add paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/*************************************************BENEFITS*************************************************/
+
+div.AG5-Benefits     /**********Mood and Behaviour Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #887fdb;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 590px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1692px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(62%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.AG5-AcP                            /**********Improved Behaviour block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #a39ce3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 251px;  /******630px in total******/
+
+  margin-left: 440px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-AcPT     /********Improved Behaviour Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-AcPP /**********Improved Behaviour paragraph**************/
+{
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: center;
+  
+  word-wrap: break-word;
+}
+
+/********************Immune System****************/
+
+div.AG5-IS /**********Immune System block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #bcb7e8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 211px;  /******630px in total******/
+
+  margin-left: 692px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-IST     /************Immune System Title*******8******/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-ISP /*************Immune System paragraph****************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Learning and Memory****************/
+
+div.AG5-MB /**********Learning and Memory block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #d1ceee;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 245px;  /******630px in total******/
+
+  margin-left: 903px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.AG5-MBT     /********Learning and Memory Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.AG5-MBP /**********Learning and Memory paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+
+word-wrap: break-word;
+}
+
+
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+/*************************************************TOO MUCH SLEEP*************************************************/
+
+
+
+div.TMS5   /**********FULL block***********/
+{
+  position: absolute;
+  top: 15500px; 
+}
+
+h2.TMS5-Title
+{
+  font-size: 2.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 10px;
+  /* margin-top: 225px; */
+
+  border-radius: 3px;
+  border-top: double 8px rgb(65, 0, 89);
+  border-bottom: double 8px rgb(65, 0, 89);
+  background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1175px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform: translateX(3%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+h2.TMS5-subT
+{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  padding: 5px;
+
+ border:2px solid #145858;
+ border-radius: 3px;
+ border-color: black;
+ background-color: #d6f4f4;
+
+  position: absolute;
+  left: 50%;
+  top: 1273px; /*The higher the px, the lower down the page */
+  transform: translateX(23%);
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+/*************************************************EFFECT**********************************************/
+
+
+div.TMS5-Eff     /**********Does Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #b883d7;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(15%);
+  text-align: center;
+  white-space: nowrap;
+
+  width: 532px;
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.TMS5-De /**********Behavioural Issues BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: #d9a2ea;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 233.5px;  /******630px in total******/
+
+  margin-left: 100px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-DeT     /********Behavioural Issues TITLE*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+p.TMS5-DeP /**********Behavioural Issues PARAGRAPGH**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Mood Chnages****************/
+
+div.TMS5-PH /**********Mood Chnages BLOCK**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2bbed;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 334px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-PHT     /********Mood Changes Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-PHP /**********Mood Changes paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Cognitive Function****************/
+
+div.TMS5-AP /**********Cognitive Function block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e2c8e7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 215px;  /******630px in total******/
+
+  margin-left: 535px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-APT     /********Cognitive Function Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-APP /**********Cognitive Function paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+
+/*****************************************CAUSES / FACTORS**********************************************/
+
+div.TMS5-Causes /**********Causes Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #ef89ce;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 535px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1362px; 
+  transform:translateX(119%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+
+}
+
+
+/***************************Separation Anxiety****************/
+
+div.TMS5-BS /**********Separation Anxiety block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #f0a4d8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 200px;  /******630px in total******/
+
+  margin-left: 781px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-BST     /********Separation Anxiety Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-BSP /**********Separation Anxiety paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+
+
+/***************************Teething****************/
+
+div.TMS5-MaC /**********Teething block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e7b2d7;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 222px;  /******630px in total******/
+
+  margin-left: 981px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-MaCT     /********Teething Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-MaCP /**********Teething paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+
+}
+
+
+
+/*******************Routine Change******************/
+
+div.TMS5-BC /**********Addressing block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ebc8e3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 230px;  /******630px in total******/
+
+  margin-left: 1203px;
+  position: absolute;
+  top: 1399px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-BCT     /********Routine Change Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+p.TMS5-BCP /**********Routine Change paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+list-style-type: none;
+word-wrap: break-word;
+}
+
+
+
+/*************************************************TIPS*************************************************/
+
+div.TMS5-Tips     /**********Tips Big Title**************/
+{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 93);
+  background-color: #887fdb;
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 590px;
+  
+  position: absolute;
+  left: 50%;
+  top: 1692px; /***Lower px, higher up page**** Higher px. lower down page**/
+  transform:translateX(62%);
+  text-align: center;
+  white-space: nowrap;
+
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black
+}
+
+div.TMS5-SS                            /**********Consistent Routine block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #a39ce3;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 251px;  /******630px in total******/
+
+  margin-left: 440px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-SST     /********Consistent Routine Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-SSP /**********Consistent Routine paragraph**************/
+{
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: center;
+  
+  word-wrap: break-word;
+}
+
+/********************Environment****************/
+
+div.TMS5-Env /**********Environment block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #bcb7e8;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 211px;  /******630px in total******/
+
+  margin-left: 692px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-EnvT     /************Environment Title*******8******/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-EnvP /*************Environment paragraph****************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+word-wrap: break-word;
+}
+
+/********************Limit Screen Time****************/
+
+div.TMS5-Ls /**********Limit Screen Time block**************/
+{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #d1ceee;
+  
+  
+  border:1px solid #030e0e;
+  border-radius: 3px;
+  border-color: black;
+  padding-top: 1px;
+  
+  width: 245px;  /******630px in total******/
+
+  margin-left: 903px;
+  position: absolute;
+  top: 1729px; /***Lower px, higher up page**** Higher px. lower down page**/
+
+}
+
+h3.TMS5-LsT     /********Limit Screen Time Title*********/
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  margin-top: 5px;
+
+}
+
+p.TMS5-LsP /**********Limit Screen Time paragraph**************/
+{
+font-size: 1.3em;
+font-family: monospace;
+text-align: center;
+
+
+word-wrap: break-word;
+}
