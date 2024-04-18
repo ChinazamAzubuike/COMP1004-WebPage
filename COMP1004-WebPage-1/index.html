@@ -1,0 +1,2406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP1004 Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles info1.css">
+    <link rel="stylesheet" href="styles info2.css">
+    <link rel="stylesheet" href="styles info3.css">
+    <link rel="stylesheet" href="styles info4.css">
+    <link rel="stylesheet" href="styles info5.css">
+    <link rel="stylesheet" href="styles info6.css">
+    
+</head>
+    <body>
+
+       
+
+
+ <!--Welcome and subheading-->
+
+        <div class="container">
+<h1 class="main-heading">Welcome to</h1>
+
+        </div>
+    <div class="sign">
+            <span class="fast-flicker">S</span>lumbr<span class="flicker">e</span>lla
+    </div>
+<div class="container-secondary">
+<h2 class="sub-heading">The website to help you manage your sleep better.</h2>
+<br>
+</div>
+
+
+
+<div class="Dropboxes">
+
+  <!--Dropbox for age-->
+ 
+  <div class="dropdown">
+     <div class="select">
+       <span class="selected" data-age-group>What age are you?</span>
+       <div class="caret"></div>
+     </div>
+     <ul class="menu">
+     <li>Age 0 - 11 months</li> 
+     <li>Age 1 - 2</li>
+     <li>Age 3 - 5</li>
+     <li>Age 6 - 13</li>
+     <li>Age 14 - 17</li>
+     <li>Age 18+</li>
+   </ul>
+ </div>
+ 
+ 
+  <!--Dropbox for sleep time-->
+ 
+ <div class="dropdown">
+   <div class="select">
+     <span class="selected" data-sleep-time>How much sleep do you get?</span>
+     <div class="caret"></div>
+   </div>
+     <ul class="menu">
+       <li>-7 hours</li>
+       <li>7 to 8 hours</li> <!-- 18+ -->
+       <li>8 to 10 hours</li> <!-- 14-17 -->
+       <li>9 to 11 hours</li> <!-- 6-13 -->
+       <li>10 to 13 hours</li> <!-- 3-5 -->
+       <li>11 to 14 hours</li> <!-- 1 - 2 -->
+       <li>14 to 18 hours</li> <!-- 0 - 11 -->
+       <li>Over 18 hours</li>
+     </ul>
+ 
+ </div>
+ 
+ </div>
+ 
+ <button class="sub-btn" role="button" onclick="downloadJSON()">
+  <span class="text">Submit</span>
+</button>
+
+<script>
+function downloadJSON() 
+{
+  const ageGroup = document.querySelector('.selected[data-age-group]').innerText;
+
+  const sleepTime = document.querySelector('.selected[data-sleep-time]').innerText;
+
+  // Format data into JavaScript object
+  const userData = 
+  {
+    ageGroup: ageGroup,
+
+    sleepTime: sleepTime
+  };
+
+  // This may convert object to a JSON string
+  const jsonData = JSON.stringify(userData, null, 2);
+
+  // Create a Blob object containing the JSON data
+  const blob = new Blob([jsonData], { type: 'application/json' });
+
+  // This is supposed to create a download link
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'userData.json';
+
+  // Trigger click on the link to start download
+  document.body.appendChild(a);
+  a.click();
+
+  
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+ 
+
+
+
+<!-- ########################################## Main info ########################################################-->
+
+<!-- ############################################## AG 11111111111111111111111 ###########################################################-->
+
+<div class="AG1-NES">
+
+<h2 class = "AG1-NES-Title">0 - 11 months. This age group needs MORE sleep (14-18 hours)!</h2> 
+
+      <h3 class="AG1-NES-subT">For this age group, anything less than 14 hours of sleep is unhealthy.</h3>
+<br>
+
+
+
+<div class="AG1-Eff">Some Effects of not enough sleep in infants include:</div>
+
+
+        <div class="AG1-Cr">
+           <h3 class="AG1-CrT">Crankiness</h3>
+            <p class="AG1-CrP">Infants can become irritated and fussy when they don’t get enough sleep.
+            </p>
+        </div>
+
+
+    <div class="AG1-PA">
+      <h3 class="AG1-PAT">Poor Appetite</h3>
+        <p class="AG1-PAP">An infant’s ability to feed will become less effective.
+        </p>
+    </div>
+
+
+    <div class="AG1-DiD">
+
+      <h3 class="AG1-DiDT">Delays in Development</h3>
+     <ul class="AG1-DiDP">
+          <li>-An Infant’s cognitive (memory skills and the ability to think and reason) and motor development can be impacted negatively.</li>
+          <li>-An infant’s physical growth can also be impacted, as lack of sleep can cause weight gain, which can lead to obesity.</li>    
+     </ul>
+   </div>
+
+
+
+
+<!---------------------->
+
+    
+
+      <div class="AG1-Causes">Some factors that may effect an infant's sleep include:</div>
+        <div class="AG1-Hunger">
+
+          <h3 class="AG1-HungerT">Hunger</h3>
+            <p class="AG1-HungerP">Babies have tiny stomachs, so they need to eat frequently.</p>
+        </div>
+
+
+    <div class="AG1-Disc">
+
+      <h3 class="AG1-DiscT">Discomfort</h3>
+
+       <ul class="AG1-DiscP">
+        <li><b>The following factors can cause discomfort and interrupt an infant’s sleep:</b><li>
+        <li>-Pain caused by teething</li>
+        <li>-Wet or dirty pampers</li>
+        <li>-Gassiness</li>
+       </ul>
+        </p>
+    </div>
+
+
+   <div class="AG1-DevM">
+
+      <h3 class="AG1-DevMT">Development Milestone</h3>
+
+       <ul class="AG1-DevMP">
+        <li><b>Infant's sleep may be disrupted when they are going through a development milestone, such as:</b><li>
+        <li>-Rolling over</li>
+        <li>-Crawling</li>
+        <li>-Walking</li>
+       </ul>
+   </div>
+
+<!------------------------------>
+
+<div class="AG1-Tips">Some tips to improve an infant's sleep include:</div>
+        <div class="AG1-BR">
+
+          <h3 class="AG1-BRT">Bedtime Routine</h3>
+            <ul class="AG1-BRP">
+              <li><b>A soothing bedtime routine can include:</b></li>
+              <li>-A nice, warm bath</li>
+              <li>-Changing into new clothes and a fresh diaper</li>
+              <li>-Feeding time while cuddling</li>
+              <li>-Dimming the lights and giving a goodnight kiss</li>
+            </ul>
+        </div>
+
+
+    <div class="AG1-Nap">
+
+      <h3 class="AG1-NapT">Naps</h3>
+
+        <p class="AG1-NapP">
+          When an infant naps at the same time and place, it helps them sleep better at night.
+        </p>
+
+    </div>
+
+
+   <div class="AG1-Swad">
+
+      <h3 class="AG1-SwadT">Swaddle</h3>
+
+        <ul class="AG1-SwadP">
+          <li>-Swaddling calms and soothes the baby down to help them sleep better.</li>
+          <li>-It also protects the baby from their natural startle reflex which can often wake them up.</li>
+
+        </ul>
+   </div>
+   
+
+</div> <!--For <div class = "AG1-NES">-->
+
+<!-----------------------------------------------AG1 ES------------------------------------------------------>
+
+
+
+<div class="AG1-ES">
+
+  <h2 class = "AG1-ES-Title">0 - 11 months. This age IS getting enough sleep!</h2> 
+
+    <h2 class="AG1-ES-subT">For this age group, anything between 14 and 18 hours of sleep is healthy.</h2>
+<br>
+
+
+    <div class="AG1-Does">What enough sleep does in an infant include:</div>
+
+      <div class="AG1-GaD">
+
+        <h3 class="AG1-GaDT">Growth and Development</h3>
+          <ul class="AG1-GaDP">
+            <li>-Sleep plays a huge role in brain development (memory, generalisation and word learning).</li>
+            <li>-Enough sleep helps an infants health and growth</li>
+          </ul>
+      </div>
+
+
+  <div class="AG1-EmoR">
+
+    <h3 class="AG1-EmoRT">Emotional Regulation</h3>
+
+      <p class="AG1-EmoRP">
+        Babies who get enough sleep are more likely to be content, calm, and capable of managing their emotions effectively.
+      </p>
+    
+  </div>
+
+
+ <div class="AG1-HaI">
+
+    <h3 class="AG1-HaIT">Health and Immunity</h3>
+
+      <p class="AG1-HaIP">
+        Adequate sleep strengthens the immune system, helping infants fight off infections and stay healthy.
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG1-Maintain">How to maintaian enough sleep in an infant:</div>
+
+      <div class="AG1-Con">
+
+        <h3 class="AG1-ConT">Consistency</h3>
+          <p class="AG1-ConP">
+            Stick to a consistent sleep schedule and bedtime routine to help regulate the baby's 
+            internal clock and promote better sleep patterns.
+          </p>
+      </div>
+
+
+  <div class="AG1-Mon">
+
+    <h3 class="AG1-MonT">Monitoring</h3>
+
+      <p class="AG1-MonP">
+        Monitor the baby's sleep patterns and adjust routines as needed to ensure they are getting 
+        enough restful sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG1-Add">
+
+    <h3 class="AG1-AddT">Addressing</h3>
+
+      <p class="AG1-AddP">
+        Address sleep disturbances promptly to minimise their impact on overall sleep duration. 
+        In other words, respond to any disruptions in sleep, such as hunger or discomfort, immediately.
+      </p>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG1-Benefits">Benefits of enough sleep in an infant include:</div>
+
+      <div class="AG1-MaB">
+
+        <h3 class="AG1-MaBT">Mood and Behaviour</h3>
+          <p class="AG1-MaBP">
+            Babies who get enough sleep are generally happier, more alert and less irritable.
+          </p>
+      </div>
+
+
+  <div class="AG1-LaM">
+
+    <h3 class="AG1-LaMT">Learning and Memory</h3>
+
+      <p class="AG1-LaMP">
+        Sufficient sleep supports cognitive development, helping babies learn new skills and 
+        remember information.
+      </p>
+    
+  </div>
+
+
+ <div class="AG1-IS">
+
+    <h3 class="AG1-IST">Immune System</h3>
+
+      <p class="AG1-ISP">
+        A baby who gets enough sleep is better able to fend off infections and illnesses, which 
+        improves their general health and wellbeing.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG1-ES"-->
+
+
+
+
+<!-- ############################################## AG 22222222222222222 ###########################################################-->
+<!-- ############################################## AG 22222222222222222 ###########################################################-->
+
+
+<div class="AG2-NES">
+
+  <h2 class = "AG2-NES-Title">1 - 2 years. This age group needs MORE sleep (11-14 hours)!</h2> 
+
+    <h2 class="AG2-NES-subT">For this age group, anything less than 11 hours of sleep is unhealthy.</h2>
+<br>
+
+
+    <div class="AG2-Eff">Some effects of a lack of sleep include:</div>
+
+      <div class="AG2-BeI">
+
+        <h3 class="AG2-BeIT">Behavioural Issues</h3>
+          <ul class="AG2-BeIP">
+            <li><b>Lack of sleep may contribute to behavioural problems such as:</b></li>
+            <li>-Hyperactivity</li>
+            <li>-Aggression</li>
+            <li>-Difficulty with impulse control.</li>
+          </ul>
+      </div>
+
+
+  <div class="AG2-MC">
+
+    <h3 class="AG2-MCT">Mood Changes</h3>
+
+      <p class="AG2-MCP">
+        Lack of sleep can lead to increased irritability, tantrums, and mood swings in toddlers.  
+      </p>
+    
+  </div>
+
+  <!--NOT CHANGED from here (head start: change HaI to CoF for Cognitive function)-->
+
+ <div class="AG2-CoF">
+
+    <h3 class="AG2-CoFT">Cognitive Funtion</h3>
+
+      <p class="AG2-CoFP">
+        Inadequate sleep can negatively impact toddlers' attention, memory, and learning capacities   
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG2-Causes">Some factors that may affect a toddler’s sleep include:</div>
+
+      <div class="AG2-SeA">
+
+        <h3 class="AG2-SeAT">Separation Anxiety</h3>
+          <p class="AG2-SeAP">
+            It can sometimes be difficult for a toddler to fall asleep when there isn’t somebody present.
+          </p>
+      </div>
+
+
+  <div class="AG2-Teething">
+
+    <h3 class="AG2-TeethingT">Teething</h3>
+
+      <p class="AG2-TeethingP">
+        When toddlers start to grow teeth, it can cause discomfort (itchy and sore) and disrupt sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG2-RoC">
+
+    <h3 class="AG2-RoCT">Routine Change</h3>
+
+      <ul class="AG2-RoCP">
+        <li><b>Changes to a toddler's routine or surroundings may sometimes affect their sleep patterns:</b></li>
+        <li>-The arrival of a new sibling</li>
+        <li>-Moving house</li>
+        <li>-Moving to a big bed</li>
+      </ul>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG2-Tips">Benefits of enough sleep in an infant include:</div>
+
+      <div class="AG2-CoR">
+
+        <h3 class="AG2-CoRT">Consistent Routine</h3>
+          <p class="AG2-CoRP">
+            Create a predictable bedtime routine to signal to toddlers that it's time to wind down 
+            and prepare for sleep.
+          </p>
+      </div>
+
+
+  <div class="AG2-Env">
+
+    <h3 class="AG2-EnvT">Environment</h3>
+
+      <p class="AG2-EnvP">
+        Create a sleep-friendly environment to ensure that the toddler’s sleep space is comfortable 
+        and quiet.
+      </p>
+    
+  </div>
+
+
+ <div class="AG2-LST">
+
+    <h3 class="AG2-LSTT">Limit Screen Time</h3>
+
+      <p class="AG2-LSTP">
+        Reduce a toddler’s exposers to screens (TV, tablet, etc), as the blue light can interfere 
+        with their sleep.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG1-ES"-->
+
+
+
+
+
+<!-----------------------------------------------AG2 ES------------------------------------------------------>
+
+
+<div class="AG2-ES">
+
+  <h2 class = "AG2-ES-Title">1 - 2 years. This age IS getting enough sleep!</h2> 
+
+    <h2 class="AG2-ES-subT">For this age group, anything between 10 and 14 hours of sleep is healthy.</h2>
+<br>
+
+
+    <div class="AG2-Does">What enough sleep does in a toddler include:</div>
+
+      <div class="AG2-LD">
+
+        <h3 class="AG2-LDT">Language Development</h3>
+          <p class="AG2-LDP">
+            Sleep plays a crucial role in language learning and development, helping toddlers learn 
+            new words and communicate effectively.
+          </p>
+      </div>
+
+
+  <div class="AG2-ER">
+
+    <h3 class="AG2-ERT">Emotional Regulation</h3>
+
+      <p class="AG2-ERP">
+        Sufficient sleep helps toddlers regulate their emotions, leading to improved mood and behaviour.
+      </p>
+    
+  </div>
+
+
+ <div class="AG2-PG">
+
+    <h3 class="AG2-PGT">Physical Growth</h3>
+
+      <p class="AG2-PGP">
+        Adequate sleep supports physical growth and development in toddlers, including muscle and bone development.
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG2-Maintain">How to maintaian enough sleep in an infant:</div>
+
+      <div class="AG2-Con">
+
+        <h3 class="AG2-ConT">Consistency</h3>
+          <p class="AG2-ConP">
+            Establish consistent wake-up times and bedtimes to regulate the toddler's sleep-wake 
+            cycle and promote better sleep habits.
+          </p>
+      </div>
+
+
+  <div class="AG2-Mon">
+
+    <h3 class="AG2-MonT">Monitoring</h3>
+
+      <p class="AG2-MonP">
+        Keep track of the toddler's sleep patterns and adjust routines as needed to ensure they 
+        are getting enough restorative sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG2-Add">
+
+    <h3 class="AG2-AddT">Addressing</h3>
+
+      <p class="AG2-AddP">
+        Respond to any disruptions in sleep (such as teething pain or illness) promptly to minimise 
+        their impact on overall sleep duration.
+      </p>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG2-Benefits">Benefits of enough sleep in an infant include:</div>
+
+      <div class="AG2-ImB">
+
+        <h3 class="AG2-ImBT">Improved Behaviour</h3>
+          <p class="AG2-ImBP">
+            Toddlers who get enough sleep are generally calmer, more cooperative, and better behaved.
+          </p>
+      </div>
+
+
+  <div class="AG2-IS">
+
+    <h3 class="AG2-IST">Immune System</h3>
+
+      <p class="AG2-ISP">
+        A well-rested toddler is less vulnerable to illnesses and infections, leading to overall 
+        better health and well-being.
+      </p>
+    
+  </div>
+
+
+ <div class="AG2-LaM">
+
+    <h3 class="AG2-LaMT">Learning and Memory</h3>
+
+      <p class="AG2-LaMP">
+        Sufficient sleep supports cognitive development, helping toddlers learn new skills and 
+        remember information.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG2-ES"-->
+
+
+
+
+
+
+<!-- ############################################## AG 33333333333333333 ###########################################################-->
+<!-- ############################################## AG 33333333333333333 ###########################################################-->
+
+
+<div class="AG3-NES">
+
+  <h2 class = "AG3-NES-Title">3 - 5 years. This age group needs MORE sleep (10 - 13 hours)!</h2> 
+
+    <h2 class="AG3-NES-subT">For this age group, anything less than 10 hours of sleep is unhealthy.</h2>
+<br>
+
+
+    <div class="AG3-Eff">Some effects of a lack of sleep in toddlers include:</div>
+
+      <div class="AG3-BI">
+
+        <h3 class="AG3-BIT">Behavioural Issues</h3>
+          <ul class="AG3-BIP">
+            <li>Lack of sleep may contribute to behavioural problems such as:</li>
+            <li>-Moodiness</li>
+            <li>-Irritability</li>
+            <li>Difficulty with self-regulation</li>
+          </ul>
+      </div>
+
+
+  <div class="AG3-Diff">
+
+    <h3 class="AG3-DiffT">Difficulties</h3>
+
+      <p class="AG3-DiffP">
+        Insufficient sleep can cause impaired attention and learning, affecting preschoolers' ability 
+        to concentrate, focus, and retain information.
+      </p>
+    
+  </div>
+
+
+ <div class="AG3-Acc">
+
+    <h3 class="AG3-AccT">Accidents</h3>
+
+      <p class="AG3-AccP">
+        Lack of sleep may increase the risk of accidents and injuries, as preschoolers may be more 
+        clumsy and less alert when they are tired.
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG3-Causes">Some factors that may affect a toddler’s sleep include:</div>
+
+      <div class="AG3-NF">
+
+        <h3 class="AG3-NFT">Nighttime Fears</h3>
+          <p class="AG3-NFP">
+            Preschoolers may experience fears of the dark, monsters, or imaginary creatures, leading 
+            to bedtime resistance and difficulty falling asleep
+          </p>
+      </div>
+
+
+  <div class="AG3-Os">
+
+    <h3 class="AG3-OsT">Overstimulation</h3>
+
+      <p class="AG3-OsP">
+        Preschoolers may experience fears of the dark, monsters, or imaginary creatures, leading to 
+        bedtime resistance and difficulty falling asleep
+      </p>
+    
+  </div>
+
+
+ <div class="AG3-RC">
+
+    <h3 class="AG3-RCT">Addressing</h3>
+
+      <p class="AG3-RCP">
+        Transitioning to a new childcare setting, starting preschool, or changes in family relationships 
+        can disrupt sleep patterns for preschoolers.
+      </p>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG3-Tips">Some tips to improve a child’s sleep:</div>
+
+      <div class="AG3-CR">
+
+        <h3 class="AG3-CRT">Consistent Routine</h3>
+          <ul class="AG3-CRP">
+            <li><b>Create a calming bedtime routine that includes activities to help preschoolers 
+              wind down and prepare for sleep such as:</b></li>
+              <li>Reading books</li>
+              <li>Taking a bath</li>
+              <li>Gentle cuddling</li>
+          </ul>
+      </div>
+
+
+  <div class="AG3-Env">
+
+    <h3 class="AG3-EnvT">Environment</h3>
+
+      <p class="AG3-EnvP">
+        Ensure that the preschooler's sleep environment is comfortable, quiet, and conducive to sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG3-LST">
+
+    <h3 class="AG3-LSTT">Limit Screen Time</h3>
+
+      <p class="AG3-LSTP">
+        Reduce exposure to screens, such as TVs, tablets, and smartphones, before bedtime to minimise 
+        the impact of the blue light on sleep quality.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG3-NES"-->
+
+
+
+
+<!-----------------------------------------------AG3-ES------------------------------------------------------>
+
+
+<div class="AG3-ES">
+
+  <h2 class = "AG3-ES-Title">3 - 5 years. This age IS getting enough sleep!</h2> 
+
+    <h2 class="AG3-ES-subT">For this age group, anything between 10 and 13 hours of sleep is healthy.</h2>
+<br>
+
+
+    <div class="AG3-Does">What enough sleep does in a preschooler include:</div>
+
+      <div class="AG3-CD">
+
+        <h3 class="AG3-CDT">Cognitive Development</h3>
+          <p class="AG3-CDP">
+            Sleep plays a crucial role in cognitive development, memory consolidation, and 
+            problem-solving skills in preschoolers.
+          </p>
+      </div>
+
+
+  <div class="AG3-ER">
+
+    <h3 class="AG3-ERT">Emotional Regulation</h3>
+
+      <p class="AG3-ERP">
+        Sufficient sleep helps preschoolers regulate their emotions, leading to improved mood, 
+        behaviour, and social interactions.
+      </p>
+    
+  </div>
+
+
+ <div class="AG3-PH">
+
+    <h3 class="AG3-PHT">Physical Health</h3>
+
+      <p class="AG3-PHP">
+        Adequate sleep supports physical health and development in preschoolers, including growth, 
+        immune function, and overall well-being.
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG2-Maintain">How to maintaian enough sleep in an infant:</div>
+
+      <div class="AG3-Con">
+
+        <h3 class="AG3-ConT">Consistency</h3>
+          <p class="AG3-ConP">
+            Establish consistent wake-up times and bedtimes to regulate the preschooler's sleep and 
+            wake cycle and promote better sleep habits.
+          </p>
+      </div>
+
+
+  <div class="AG3-Mon">
+
+    <h3 class="AG3-MonT">Monitoring</h3>
+
+      <p class="AG3-MonP">
+        Keep track of the preschooler’s sleep patterns and adjust routines as needed to ensure they 
+        are getting enough restorative sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG3-Add">
+
+    <h3 class="AG3-AddT">Addressing</h3>
+
+      <p class="AG3-AddP">
+        Respond to any disruptions in sleep (such as nightmares or bedtime resistance) promptly to 
+        minimise their impact on overall sleep duration.
+      </p>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG3-Benefits">Benefits of enough sleep in a preschooler include:</div>
+
+      <div class="AG3-IB">
+
+        <h3 class="AG3-IBT">Improved Behaviour</h3>
+          <p class="AG3-IBP">
+            Preschoolers who get enough sleep are generally calmer, more cooperative, and better behaved.
+          </p>
+      </div>
+
+
+  <div class="AG3-IS">
+
+    <h3 class="AG3-IST">Immune System</h3>
+
+      <p class="AG3-ISP">
+        A well-rested preschooler is less vulnerable to illnesses and infections, leading to overall 
+        better health and well-being.
+      </p>
+    
+  </div>
+
+
+ <div class="AG3-LaM">
+
+    <h3 class="AG3-LaMT">Learning and Memory</h3>
+
+      <p class="AG3-LaMP">
+        Sufficient sleep supports cognitive development, helping preschoolers learn new skills and 
+        remember information.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG3-ES"-->
+
+
+
+
+<!-- ############################################## AG 4444444444444444 ###########################################################-->
+<!-- ############################################## AG 4444444444444444 ###########################################################-->
+
+
+
+
+<div class="AG4-NES">
+
+  <h2 class = "AG4-NES-Title">6 - 13 years. This age group needs MORE sleep (9 - 11 hours)!</h2> 
+
+    <h2 class="AG4-NES-subT">For this age group, anything less than 10 hours of sleep is unhealthy.</h2>
+<br>
+
+
+    <div class="AG4-Eff">Some effects of a lack of sleep in children include:</div>
+
+      <div class="AG4-CF">
+
+        <h3 class="AG4-CFT">Cognitive Function</h3>
+          <p class="AG4-CFP">
+            Sleep deprivation can affect children's ability to concentrate, focus, and retain 
+            information, leading to academic difficulties and lower performance in school.
+          </p>
+      </div>
+
+
+  <div class="AG4-HP">
+
+    <h3 class="AG4-HPT">Health Problems</h3>
+
+      <p class="AG4-HPP">
+        Chronic sleep deprivation in children is associated with an increased risk of obesity, 
+        diabetes, and other health problems
+      </p>
+    
+  </div>
+
+
+ <div class="AG4-ER">
+
+    <h3 class="AG4-ERT">Emotional Regulation</h3>
+
+      <p class="AG4-ERP">
+        Insufficient sleep may contribute to moodiness, irritability, and emotional outbursts in 
+        children.
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG4-Causes">Some factors that may affect a child's sleep include:</div>
+
+      <div class="AG4-ST">
+
+        <h3 class="AG4-STT">Screen Time</h3>
+          <p class="AG4-STP">
+            Excessive use of electronic devices, such as smartphones, tablets, and computers, 
+            before bedtime can interfere with children's ability to fall asleep.
+          </p>
+      </div>
+
+
+  <div class="AG4-SA">
+
+    <h3 class="AG4-SAT">Social Activities</h3>
+
+      <p class="AG4-SAP">
+        Busy schedules, extracurricular activities, and social events can result in irregular 
+        bedtimes and insufficient sleep for children.
+      </p>
+    
+  </div>
+
+
+ <div class="AG4-AS">
+
+    <h3 class="AG4-AST">Academic Stress</h3>
+
+      <p class="AG4-ASP">
+        Increasing academic demands and homework load can lead to bedtime resistance and difficulty 
+        falling asleep in children.
+      </p>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG4-Tips">Some tips to improve a child’s sleep:</div>
+
+      <div class="AG4-CR">
+
+        <h3 class="AG4-CRT">Consistent Routine</h3>
+          <ul class="AG4-CRP">
+            <li><b>Create a calming bedtime routine that includes activities to help preschoolers 
+              wind down and prepare for sleep such as:</b></li>
+              <li>-Reading books</li>
+              <li>-Taking a bath</li>
+              <li>-Relaxation exercises</li>
+          </ul>
+      </div>
+
+
+  <div class="AG4-Env">
+
+    <h3 class="AG4-EnvT">Environment</h3>
+
+      <p class="AG4-EnvP">
+        Ensure that the child's sleep environment is comfortable, quiet, and conducive to sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG4-LST">
+
+    <h3 class="AG4-LSTT">Limit Screen Time</h3>
+
+      <p class="AG4-LSTP">
+        Reduce exposure to screens, such as TVs, tablets, and smartphones, before bedtime to minimise 
+        the impact of the blue light on sleep quality.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG4-NES"-->
+
+
+
+<!-----------------------------------------------AG4-ES------------------------------------------------------>
+
+
+<div class="AG4-ES">
+
+  <h2 class = "AG4-ES-Title">6 - 13 years. This age IS getting enough sleep!</h2> 
+
+    <h2 class="AG4-ES-subT">For this age group, anything between 9 and 11 hours of sleep is healthy.</h2>
+<br>
+
+
+    <div class="AG4-Does">What enough sleep does in a child include:</div>
+
+      <div class="AG4-PH">
+
+        <h3 class="AG4-PHT">Physical Health</h3>
+          <p class="AG4-PHP">
+            Sufficient sleep promotes physical health and development, including growth, immune 
+            function, and overall well-being in children.
+          </p>
+      </div>
+
+
+  <div class="AG4-EWB">
+
+    <h3 class="AG4-EWBT">Emotional Well-being</h3>
+
+      <p class="AG4-EWBP">
+        Restorative sleep helps children regulate their emotions, leading to improved mood, 
+        behaviour, and social interactions.
+      </p>
+    
+  </div>
+
+
+ <div class="AG4-AP">
+
+    <h3 class="AG4-APT">Academic Performance</h3>
+
+      <p class="AG4-APP">
+        Adequate sleep supports cognitive function, stronger memory, and problem-solving skills, 
+        leading to enhanced academic performance in children.
+      </p>
+ </div>
+
+<!-----------------P2------------->
+
+<div class="AG4-Maintain">How to maintaian enough sleep in a child:</div>
+
+      <div class="AG4-Con">
+
+        <h3 class="AG4-ConT">Consistency</h3>
+          <p class="AG4-ConP">
+            Establish consistent wake-up times and bedtimes to regulate the child’s sleep and wake 
+            cycle and promote better sleep habits.
+          </p>
+      </div>
+
+
+  <div class="AG4-Mon">
+
+    <h3 class="AG4-MonT">Monitoring</h3>
+
+      <p class="AG4-MonP">
+        Keep track of the child’s sleep patterns and adjust routines as needed to ensure they are 
+        getting enough restorative sleep.
+      </p>
+    
+  </div>
+
+
+ <div class="AG4-Add">
+
+    <h3 class="AG4-AddT">Addressing</h3>
+
+      <p class="AG4-AddP">
+        Respond to any disruptions in sleep (such as nightmares or bedtime resistance) promptly to 
+        minimise their impact on overall sleep duration.
+      </p>
+ </div>
+
+
+ <!-------------P3---------------->
+
+ <div class="AG4-Benefits">Benefits of enough sleep in a child include:</div>
+
+      <div class="AG4-AcP">
+
+        <h3 class="AG4-AcPT">Academic Performance</h3>
+          <p class="AG4-AcPP">
+            Children who get enough sleep are better able to concentrate, focus, and retain 
+            information, leading to improved academic performance and success in school.
+          </p>
+      </div>
+
+
+  <div class="AG4-IS">
+
+    <h3 class="AG4-IST">Immune System</h3>
+
+      <p class="AG4-ISP">
+        A well-rested child is less vulnerable to illnesses and infections, leading to overall better 
+        health and well-being.
+      </p>
+    
+  </div>
+
+
+ <div class="AG4-MB">
+
+    <h3 class="AG4-MBT">Mood and Behaviour</h3>
+
+      <p class="AG4-MBP">
+        Restorative sleep helps children regulate their emotions, leading to improved mood, behaviour, 
+        and social interactions.
+      </p>
+ </div>
+
+
+
+</div> <!--For div class = "AG4-ES"-->
+
+
+
+
+  <!-- ############################################## AG 55555555555555 ###########################################################-->
+  <!-- ############################################## AG 55555555555555 ###########################################################-->
+  <!-- ############################################## AG 55555555555555 ###########################################################-->
+
+
+  <div class="AG5-NES">
+
+    <h2 class = "AG5-NES-Title">14 - 17 years. This age group needs MORE sleep (8-10 hours)!</h2> 
+  
+      <h2 class="AG5-NES-subT">For this age group, anything less than 10 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="AG5-Eff">Some effects of a lack of sleep in teens include:</div>
+  
+        <div class="AG5-APe">
+  
+          <h3 class="AG5-APeT">Academic Performance</h3>
+            <p class="AG5-APeP">
+              Sleep deprivation can affect teenagers' cognitive function, memory, and concentration, 
+              leading to lower academic performance and difficulty in school.
+            </p>
+        </div>
+  
+  
+    <div class="AG5-MC">
+  
+      <h3 class="AG5-MCT">Mood Changes</h3>
+  
+        <p class="AG5-MCP">
+          Insufficient sleep may contribute to moodiness, irritability, anxiety, and depression in teenagers.
+        </p>
+      
+    </div>
+  
+  
+   <div class="AG5-RT">
+  
+      <h3 class="AG5-RTT">Risk-taking</h3>
+  
+        <ul class="AG5-RTP">
+          <li>Chronic sleep deprivation is associated with an increased risk of engaging in risky behaviours such as:</li>
+          <li>-Substance abuse</li>
+          <li>-Reckless driving</li>
+          <li>-Unsafe sexual practices among teenagers.</li>
+        </ul>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="AG5-Causes">Some factors that may affect a teen's sleep include:</div>
+  
+        <div class="AG5-ST">
+  
+          <h3 class="AG5-STT">Screen Time</h3>
+            <p class="AG5-STP">
+              Excessive use of smartphones, tablets, computers, and video games before bedtime can 
+              interfere with teenagers' ability to fall asleep and stay asleep.
+            </p>
+        </div>
+  
+  
+    <div class="AG5-SA">
+  
+      <h3 class="AG5-SAT">Social Activities</h3>
+  
+        <p class="AG5-SAP">
+          Busy schedules, extracurricular activities, part-time jobs, and social events can result 
+          in irregular bedtimes and insufficient sleep for teenagers.
+        </p>
+    </div>
+  
+  
+   <div class="AG5-AP">
+  
+      <h3 class="AG5-APT">Academic Performance</h3>
+  
+        <p class="AG5-APP">
+          Increasing academic demands, homework load, and exam stress can lead to late-night studying 
+          and difficulty falling asleep for teenagers.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="AG5-Tips">Some tips to improve a teen's sleep:</div>
+  
+        <div class="AG5-CR">
+  
+          <h3 class="AG5-CRT">Consistent Routine</h3>
+            <ul class="AG5-CRP">
+              <li><b>Encourage teenagers to establish a calming bedtime routine that includes 
+                activities such as:</b></li>
+                <li>-Reading</li>
+                <li>-Listening to music</li>
+                <li>-Relaxation exercises</li>
+            </ul>
+        </div>
+  
+  
+    <div class="AG5-Ex">
+  
+      <h3 class="AG5-ExT">Exercise</h3>
+  
+        <p class="AG5-ExP">
+          Promote regular physical activity during the day to help teenagers expend energy and 
+          promote better sleep at night.
+        </p>
+    </div>
+  
+  
+   <div class="AG5-LS">
+  
+      <h3 class="AG5-LST">Limit Stimulants</h3>
+  
+        <p class="AG5-LSP">
+          Limit consumption of caffeinated beverages and stimulants, especially in the afternoon 
+          and evening, as they can interfere with sleep.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "AG5-NES"-->
+  
+  
+  
+  
+  <!-----------------------------------------------AG5-ES------------------------------------------------------>
+  
+  
+  <div class="AG5-ES">
+  
+    <h2 class = "AG5-ES-Title">14 - 17 years. This age group IS getting enough sleep!</h2> 
+  
+      <h2 class="AG5-ES-subT">For this age group, anything between 9 and 11 hours of sleep is healthy.</h2>
+  <br>
+  
+  
+      <div class="AG5-Does">What enough sleep does in a teenager include:</div>
+  
+        <div class="AG5-PH">
+  
+          <h3 class="AG5-PHT">Physical Health</h3>
+            <p class="AG5-PHP">
+              Sufficient sleep promotes physical health and development, including growth, immune 
+              function, and overall well-being in teenagers.
+            </p>
+        </div>
+  
+  
+    <div class="AG5-EWB">
+  
+      <h3 class="AG5-EWBT">Emotional Well-being</h3>
+  
+        <p class="AG5-EWBP">
+          Restorative sleep helps teenagers regulate their emotions, leading to improved mood, 
+          behaviour, and social interactions.
+        </p>
+    </div>
+  
+  
+   <div class="AG5-AS">
+  
+      <h3 class="AG5-AST">Academic Success</h3>
+  
+        <p class="AG5-ASP">
+          Adequate sleep supports cognitive function, memory consolidation, and problem-solving skills, 
+          leading to improved academic performance and success in school for teenagers.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="AG4-Maintain">How to maintaian enough sleep in a teenager:</div>
+  
+        <div class="AG5-Con">
+  
+          <h3 class="AG5-ConT">Consistency</h3>
+            <p class="AG5-ConP">
+              Encourage teenagers to establish consistent wake-up times and bedtimes to regulate 
+              their sleep-wake cycle and promote better sleep habits.
+            </p>
+        </div>
+  
+  
+    <div class="AG5-Mon">
+  
+      <h3 class="AG5-MonT">Monitoring</h3>
+  
+        <p class="AG5-MonP">
+          Keep track of the teenager's sleep patterns and adjust routines as needed to ensure they 
+          are getting enough restorative sleep.
+        </p>
+      
+    </div>
+  
+  
+   <div class="AG5-Add">
+  
+      <h3 class="AG5-AddT">Addressing</h3>
+  
+        <p class="AG5-AddP">
+          Respond to any disruptions in sleep, such as stress, anxiety, or sleep disorders, promptly 
+          to minimise their impact on overall sleep duration.
+          </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="AG5-Benefits">Benefits of enough sleep in a teenager include:</div>
+  
+        <div class="AG5-AcP">
+  
+          <h3 class="AG5-AcPT">Academic Performance</h3>
+            <p class="AG5-AcPP">
+              Teenagers who get enough sleep are better able to concentrate, focus, and retain 
+              information, leading to improved academic performance and success in school.
+            </p>
+        </div>
+  
+  
+    <div class="AG5-IS">
+  
+      <h3 class="AG5-IST">Immune System</h3>
+  
+        <p class="AG5-ISP">
+          A well-rested teenager is less susceptible to illnesses and infections, leading to overall 
+          better health and well-being.
+        </p>
+      
+    </div>
+  
+  
+   <div class="AG5-MB">
+  
+      <h3 class="AG5-MBT">Mood and Behaviour</h3>
+  
+        <p class="AG5-MBP">
+          Restorative sleep helps teenagers regulate their emotions, leading to improved mood, 
+          behaviour, and social interactions.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "AG5-ES"-->
+
+
+
+
+  <!-- ############################################## AG 666666666666 ###########################################################-->
+  <!-- ############################################ AG 666666666666 ###########################################################-->
+  <!-- ###########################################  AG 666666666666 ###########################################################-->
+
+
+
+
+  <div class="AG6-NES">
+
+    <h2 class = "AG6-NES-Title">18+ years. This age group needs MORE sleep (7 - 9 hours)!</h2> 
+  
+      <h2 class="AG6-NES-subT">For this age group, anything less than 7 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="AG6-Eff">Some effects of a lack of sleep in adults include:</div>
+  
+        <div class="AG6-CF">
+  
+          <h3 class="AG6-CFT">Cognitive Performance</h3>
+            <p class="AG6-CFP">
+              Sleep deprivation can affect adults' cognitive function, memory, attention, and 
+              decision-making abilities, leading to decreased productivity and performance.
+            </p>
+        </div>
+  
+  
+    <div class="AG6-MC">
+  
+      <h3 class="AG6-MCT">Mood Changes</h3>
+  
+        <p class="AG6-MCP">
+          Insufficient sleep may contribute to irritability, mood swings, anxiety, depression, and 
+          increased stress levels in adults.        
+        </p>
+    </div>
+  
+  
+   <div class="AG6-HR">
+  
+      <h3 class="AG6-HRT">Risk-taking</h3>
+  
+        <ul class="AG6-HRP">
+          <li><b>Chronic sleep deprivation is associated with an increased risk of health problems such as:</b></li>
+          <li>-Obesity</li>
+          <li>-Diabetes</li>
+          <li>-Heart disease</li>
+          <li>-Weakened immune function</li>
+        </ul>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="AG5-Causes">Some factors that may affect an adult's sleep include:</div>
+  
+        <div class="AG6-ST">
+  
+          <h3 class="AG6-STT">Screen Time</h3>
+            <p class="AG6-STP">
+              Excessive use of smartphones, tablets, computers, and television before bedtime can 
+              interfere with adults' ability to fall asleep and stay asleep.
+            </p>
+        </div>
+  
+  
+    <div class="AG6-Ls">
+  
+      <h3 class="AG6-LsT">Lifestyle</h3>
+  
+        <p class="AG6-LsP">
+          Busy schedules, social activities, family responsibilities, and recreational activities 
+          can result in irregular bedtimes and insufficient sleep for adults
+        </p>
+    </div>
+  
+  
+   <div class="AG6-WRS">
+  
+      <h3 class="AG6-WRST">Work-related Stress</h3>
+  
+        <p class="AG6-WRSP">
+          Job demands, long work hours, shift work, and job-related stress can lead to sleep 
+          disturbances and difficulty falling asleep for adults
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="AG6-Tips">Some tips to improve an adult's sleep:</div>
+  
+        <div class="AG6-SM">
+  
+          <h3 class="AG6-SMT">Stress Management</h3>
+            <ul class="AG6-SMP">
+              <li><b>Encorporate stress management techniques such as:</b></li>
+                <li>-Mindfulness</li>
+                <li>-Meditation</li>
+                <li>-Deep breathing exercises</li>
+                <li>-Journaling</li>
+            </ul>
+        </div>
+  
+  
+    <div class="AG6-Env">
+  
+      <h3 class="AG6-EnvT">Environment</h3>
+  
+        <p class="AG6-EnvP">
+          Ensure that the sleep environment is comfortable, quiet, dark, and cool, and free from 
+          distractions to promote restorative sleep.
+        </p>
+    </div>
+  
+  
+   <div class="AG6-LS">
+  
+      <h3 class="AG6-LST">Limit Stimulants</h3>
+  
+        <p class="AG6-LSP">
+          Limit consumption of caffeine and alcohol, especially in the afternoon and evening, as they 
+          can interfere with sleep quality and disrupt sleep patterns.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "AG5-NES"-->
+  
+  
+  
+  
+  <!-----------------------------------------------AG6-ES------------------------------------------------------>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="AG6-ES">
+  
+    <h2 class = "AG6-ES-Title"> 18+ years. This age group IS getting enough sleep!</h2> 
+  
+      <h2 class="AG6-ES-subT">For this age group, anything between 7 and 10 hours of sleep is healthy.</h2>
+  <br>
+  
+  
+      <div class="AG6-Does">What enough sleep does in an adult include:</div>
+  
+        <div class="AG6-CFu">
+  
+          <h3 class="AG6-CFuT">Cognitive Function</h3>
+            <p class="AG6-CFuP">
+              Sufficient sleep enhances cognitive function, memory consolidation, problem-solving 
+              skills, and creativity in adults.
+            </p>
+        </div>
+  
+  
+    <div class="AG6-MH">
+  
+      <h3 class="AG6-MHT">Mental Health</h3>
+  
+        <ul class="AG6-MHP">
+         <li><b>Restorative sleep promotes mental health and emotional well-being in adults, including:</b></li>
+          <li>-Stress reduction</li>
+          <li>-Mood stabilisation</li>
+          <li>-Improved coping abilities.</li>
+          
+        </ul>
+    </div>
+  
+  
+   <div class="AG6-PH">
+  
+      <h3 class="AG6-PHT">Physical Health</h3>
+  
+        <ul class="AG6-PHP">
+          <li>Adequate sleep supports physical health and well-being in adults, including:</li>
+          <li>-Immune function</li>
+          <li>-Metabolism</li>
+          <li>-Hormone regulation</li>
+          <li>-Cardiovascular health.</li>
+        </ul>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="AG6-Maintain">How to maintaian enough sleep in an adult:</div>
+  
+        <div class="AG6-Con">
+  
+          <h3 class="AG6-ConT">Consistency</h3>
+            <p class="AG6-ConP">
+              Encourage teenagers to establish consistent wake-up times and bedtimes to regulate 
+              your sleep-wake cycle and promote better sleep habits.
+            </p>
+        </div>
+  
+  
+    <div class="AG6-Mon">
+  
+      <h3 class="AG6-MonT">Monitoring</h3>
+  
+        <p class="AG6-MonP">
+          Keep track of your sleep patterns and adjust routines as needed to ensure they 
+          are getting enough restorative sleep.
+        </p>
+      
+    </div>
+  
+  
+   <div class="AG6-Add">
+  
+      <h3 class="AG6-AddT">Addressing</h3>
+  
+        <ul class="AG6-AddP">
+          <li><b>Seek medical attention for any sleep disorders to minimise the impact on overall sleep 
+            duration and quality such as:</b></li>
+          <li>-Insomnia</li>
+          <li>-Sleep apnoea</li>
+          <li>-Restless leg syndrome</li>
+        </ul>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="AG6-Benefits">Benefits of enough sleep in an adult include:</div>
+  
+        <div class="AG6-MMH">
+  
+          <h3 class="AG6-MMHT">Mood and Mental Health</h3>
+            <ul class="AG6-MMHP">
+              <li><b>Restorative sleep promotes mental health and emotional well-being, including:</b></li>
+                <li>-Stress reduction</li>
+                <li>-Mood stabilisation</li>
+                <li>-Improved coping abilities.</li>
+        </div>
+  
+  
+    <div class="AG6-OH">
+  
+      <h3 class="AG6-OHT">Overall Health</h3>
+  
+        <p class="AG6-OHP">
+          Adults who get enough sleep have a reduced risk of health problems such as obesity, 
+          diabetes, heart disease, and weakened immune function.
+        </p>
+      
+    </div>
+  
+  
+   <div class="AG6-CoF">
+  
+      <h3 class="AG6-CoFT">Cognitive Function</h3>
+  
+        <p class="AG6-CoFP">
+          Sufficient sleep enhances cognitive function, memory consolidation, problem-solving skills, 
+          and creativity, leading to improved productivity and performance in daily activities.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "AG6-ES"-->
+
+
+
+
+
+
+ <!-- ########################################TMS 11111111111 ###########################################################-->
+ <!-- #######################################TMS 11111111111 ###########################################################-->
+  <!-- ######################################TMS 11111111111 ###########################################################-->
+<!-- ########################################TMS 11111111111 ###########################################################-->
+ <!-- #######################################TMS 11111111111 ###########################################################-->
+  <!-- ######################################TMS 11111111111 ###########################################################-->
+
+
+
+  <div class="TMS1">
+
+    <h2 class = "TMS1-Title">0 - 11 months. This age group is getting TOO much sleep!</h2> 
+  
+      <h2 class="TMS1-subT">For this age group, anything more than 18 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="TMS1-Eff">Effects of too much sleep in infants:</div>
+  
+        <div class="TMS1-DD">
+  
+          <h3 class="TMS1-DDT">Development Delay</h3>
+            <p class="TMS1-DDP">
+              Delayed physical and cognitive development due to decreased interaction and stimulation during waking hours.
+            </p>
+        </div>
+  
+  
+    <div class="TMS1-SI">
+  
+      <h3 class="TMS1-SIT">SIDS</h3>
+  
+        <p class="TMS1-SIP">
+          Increased risk of sudden infant death syndrome (SIDS) due to prolonged periods of uninterrupted sleep.
+        </p>
+    </div>
+  
+  
+   <div class="TMS1-Di">
+  
+      <h3 class="TMS1-DiT">Disruptions</h3>
+  
+        <p class="TMS1-DiP">
+          Disrupted feeding schedules, potentially leading to poor weight gain and nutritional deficiencies.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="TMS1-Causes">Causes of constant tiredness in infants:</div>
+  
+        <div class="TMS1-In">
+  
+          <h3 class="TMS1-InT">Inconsistency</h3>
+            <p class="TMS1-InP">
+              Inconsistent sleep patterns due to frequent nighttime awakenings for feeding or discomfort.
+            </p>
+        </div>
+  
+  
+    <div class="TMS1-Ov">
+  
+      <h3 class="TMS1-OvT">Overstimulation</h3>
+  
+        <p class="TMS1-OvP">
+          Overstimulation from engaging activities or screen time close to bedtime, affecting the ability to wind down and fall asleep.
+        </p>
+    </div>
+  
+  
+   <div class="TMS1-MC">
+  
+      <h3 class="TMS1-MCT">Medical Conditions</h3>
+  
+        <p class="TMS1-MCP">
+          Underlying medical conditions like reflux or colic, causing discomfort and disrupting sleep.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="TMS1-Tips">How to stop constant tiredness in infants</div>
+  
+        <div class="TMS1-SR">
+  
+          <h3 class="TMS1-SRT">Sleep Routine</h3>
+            <p class="TMS1-SRP">
+              Establishing a consistent sleep routine to regulate sleep-wake cycles.
+            </p>
+        </div>
+  
+  
+    <div class="TMS1-Env">
+  
+      <h3 class="TMS1-EnvT">Environment</h3>
+  
+        <p class="TMS1-EnvP">
+          Providing a calm and soothing sleep environment with minimal distractions.
+        </p>
+    </div>
+  
+  
+   <div class="TMS1-FS">
+  
+      <h3 class="TMS1-FST">Feeding Schedule</h3>
+  
+        <p class="TMS1-FSP">
+          Implementing age-appropriate feeding schedules to ensure adequate nutrition and minimise disruptions during sleep.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "TMS1"-->
+
+
+
+
+
+
+
+
+
+ <!-- ########################################TMS 222222222 ###########################################################-->
+  <!-- #######################################TMS 2222222222 ###########################################################-->
+  <!-- ######################################TMS 222222222 ###########################################################-->
+ <!-- ########################################TMS 222222222 ###########################################################-->
+  <!-- #######################################TMS 2222222222 ###########################################################-->
+  <!-- ######################################TMS 222222222 ###########################################################-->
+
+
+
+
+  <div class="TMS2">
+
+    <h2 class = "TMS2-Title">1 - 2 years. This age group is getting TOO much sleep!</h2> 
+  
+      <h2 class="TMS2-subT">For this age group, anything more than 14 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="TMS2-Eff">Effects of too much sleep in toddlers:</div>
+  
+        <div class="TMS2-DD">
+  
+          <h3 class="TMS2-DDT">Development Delay</h3>
+            <p class="TMS2-DDP">
+              Potential delays in language development and cognitive abilities due to limited awake 
+              time for exploration and learning.
+            </p>
+        </div>
+  
+  
+    <div class="TMS2-Be">
+  
+      <h3 class="TMS2-BeT">Behaviour</h3>
+  
+        <p class="TMS2-BeP">
+          Increased risk of behavioural issues such as irritability, mood swings, and difficulty 
+          regulating emotions. 
+        </p>
+    </div>
+  
+  
+   <div class="TMS2-Di">
+  
+      <h3 class="TMS2-DiT">Disruptions</h3>
+  
+        <p class="TMS2-DiP">
+          Disrupted social interactions and play opportunities, hindering developmental milestones 
+          and social skills.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="TMS2-Causes">Causes of constant tiredness in toddlers:</div>
+  
+        <div class="TMS2-FN">
+  
+          <h3 class="TMS2-FNT">Fewer Naps</h3>
+            <p class="TMS2-FNP">
+              Transition from multiple naps to fewer naps or no naps, leading to overtiredness and 
+              difficulty settling for sleep.
+            </p>
+        </div>
+  
+  
+    <div class="TMS2-Ov">
+  
+      <h3 class="TMS2-OvT">Overstimulation</h3>
+  
+        <p class="TMS2-OvP">
+          Overstimulation from engaging activities or screen time close to bedtime, affecting the 
+          ability to wind down and fall asleep.
+        </p>
+    </div>
+  
+  
+   <div class="TMS2-Te">
+  
+      <h3 class="TMS2-TeT">Teething</h3>
+  
+        <p class="TMS2-TeP">
+          Teething pain or discomfort from illnesses disrupting sleep quality and duration.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="TMS2-Tips">How to stop constant tiredness in toddlers</div>
+  
+        <div class="TMS2-SS">
+  
+          <h3 class="TMS2-SST">Sleep Schedule</h3>
+            <p class="TMS2-SSP">
+              Establishing a consistent sleep schedule with age-appropriate nap times and bedtime 
+              routines.
+            </p>
+        </div>
+  
+  
+    <div class="TMS2-Ac">
+  
+      <h3 class="TMS2-AcT">Activeness</h3>
+  
+        <p class="TMS2-AcP">
+          Encouraging active play and exploration during waking hours to promote physical and mental 
+          tiredness.
+        </p>
+    </div>
+  
+  
+   <div class="TMS2-BR">
+  
+      <h3 class="TMS2-BRT">Bedtime Routine</h3>
+  
+        <p class="TMS2-BRP">
+          Creating a calming bedtime routine with soothing activities like reading, bath time, or 
+          gentle music to signal bedtime and promote relaxation.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "TMS2"-->
+  
+  
+  
+ <!-- ########################################TMS 333333333 ###########################################################-->
+  <!-- #######################################TMS 333333333 ###########################################################-->
+  <!-- #######################################TMS 3333333333 ###########################################################-->
+ <!-- ########################################TMS 333333333 ###########################################################-->
+  <!-- #######################################TMS 333333333 ###########################################################-->
+  <!-- ######################################TMS 3333333333 ###########################################################-->
+
+
+  <div class="TMS3">
+
+    <h2 class = "TMS3-Title">3 - 5 years. This age group is getting TOO much sleep!</h2> 
+  
+      <h2 class="TMS3-subT">For this age group, anything more than 13 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="TMS3-Eff">Effects of too much sleep in preschoolers:</div>
+  
+        <div class="TMS3-IL">
+  
+          <h3 class="TMS3-ILT">Impaired Learning</h3>
+            <p class="TMS3-ILP">
+              Impaired attention span and cognitive function, affecting learning and school performance.
+            </p>
+        </div>
+  
+  
+    <div class="TMS3-Sl">
+  
+      <h3 class="TMS3-SlT">Sleepiness</h3>
+  
+        <p class="TMS3-SlP">
+          Increased daytime sleepiness and difficulty staying awake during activities or interactions. 
+        </p>
+    </div>
+  
+  
+   <div class="TMS3-DS">
+  
+      <h3 class="TMS3-DST">Disrupted Sleep</h3>
+  
+        <p class="TMS3-DSP">
+          Disrupted nighttime sleep due to oversleeping, leading to frequent awakenings, bedwetting, or 
+          nightmares.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="TMS3-Causes">Causes of constant tiredness in preschoolers:</div>
+  
+        <div class="TMS3-In">
+  
+          <h3 class="TMS3-InT">Inconsistency</h3>
+            <p class="TMS3-InP">
+              Inconsistent sleep schedules due to varying preschool or daycare routines, leading to sleep 
+              deprivation or oversleeping on weekends.
+            </p>
+        </div>
+  
+  
+    <div class="TMS3-Ov">
+  
+      <h3 class="TMS3-OvT">Overstimulation</h3>
+  
+        <p class="TMS3-OvP">
+          Overstimulation from busy schedules, extracurricular activities, or screen time before bedtime, 
+          making it challenging to wind down and fall asleep.
+        </p>
+    </div>
+  
+  
+   <div class="TMS3-Fe">
+  
+      <h3 class="TMS3-FeT">Fears</h3>
+  
+        <p class="TMS3-FeP">
+          Anxiety or fears, such as separation anxiety or fear of the dark, causing bedtime resistance 
+          and sleep disturbances.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="TMS3-Tips">How to stop constant tiredness in preschoolers:</div>
+  
+        <div class="TMS3-SS">
+  
+          <h3 class="TMS3-SST">Sleep Schedule</h3>
+            <p class="TMS3-SSP">
+              Establishing a regular sleep schedule with consistent bedtimes and wake-up times, even on 
+              weekends.
+            </p>
+        </div>
+  
+  
+    <div class="TMS3-Env">
+  
+      <h3 class="TMS3-EnvT">Environment</h3>
+  
+        <p class="TMS3-EnvP">
+          Creating a sleep-friendly environment with a comfortable mattress, dim lighting, and a consistent 
+          bedtime routine.
+        </p>
+    </div>
+  
+  
+   <div class="TMS3-LST">
+  
+      <h3 class="TMS3-LSTT">Limit Screen Time</h3>
+  
+        <p class="TMS3-LSTP">
+          Limiting screen time and stimulating activities before bedtime and encouraging calming activities 
+          like reading or gentle yoga to promote relaxation.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "TMS3"-->
+
+
+
+<!-- #########################################TMS 4444444444 ###########################################################-->
+  <!-- #######################################TMS 4444444444 ###########################################################-->
+  <!-- #######################################TMS 4444444444 ###########################################################-->
+ <!-- ########################################TMS 4444444444 ###########################################################-->
+  <!-- #######################################TMS 4444444444 ###########################################################-->
+  <!-- #######################################TMS 4444444444 ###########################################################-->
+
+
+  <div class="TMS4">
+
+    <h2 class = "TMS4-Title">6 - 13 years. This age group is getting TOO much sleep!</h2> 
+  
+      <h2 class="TMS4-subT">For this age group, anything more than 13 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="TMS4-Eff">Effects of too much sleep in children:</div>
+  
+        <div class="TMS4-RA">
+  
+          <h3 class="TMS4-RAT">Reduced Alertness</h3>
+            <p class="TMS4-RAP">
+              Reduced daytime alertness and difficulty concentrating in school or during activities.            
+            </p>
+        </div>
+  
+  
+    <div class="TMS4-Be">
+  
+      <h3 class="TMS4-BeT">Behaviour</h3>
+  
+        <p class="TMS4-BeP">
+          Increased irritability, mood swings, and behavioural problems due to disrupted sleep-wake cycles.        
+        </p>
+    </div>
+  
+  
+   <div class="TMS4-IS">
+  
+      <h3 class="TMS4-IST">Impaired Skills</h3>
+  
+        <p class="TMS4-ISP">
+          Impaired cognitive function, including memory and problem-solving skills, impacting academic 
+          performance.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="TMS4-Causes">Causes of constant tiredness in children:</div>
+  
+        <div class="TMS4-SP">
+  
+          <h3 class="TMS4-SPT">Sleep Pattern</h3>
+            <p class="TMS4-SPP">
+              Irregular sleep patterns resulting from busy schedules, homework, and extracurricular activities.
+            </p>
+        </div>
+  
+  
+    <div class="TMS4-ST">
+  
+      <h3 class="TMS4-STT">Screen Time</h3>
+  
+        <p class="TMS4-STP">
+          Screen time from electronic devices before bedtime, leading to difficulty falling asleep and 
+          reduced sleep quality.
+        </p>
+    </div>
+  
+  
+   <div class="TMS4-St">
+  
+      <h3 class="TMS4-StT">Stress</h3>
+  
+        <p class="TMS4-StP">
+          Stress and anxiety related to school, peer relationships, or family issues, affecting sleep 
+          duration and quality.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="TMS4-Tips">How to stop constant tiredness in children:</div>
+  
+        <div class="TMS4-SS">
+  
+          <h3 class="TMS4-SST">Sleep Schedule</h3>
+            <p class="TMS4-SSP">
+              Setting consistent sleep schedules with age-appropriate bedtime routines and wake-up times.
+            </p>
+        </div>
+  
+  
+    <div class="TMS4-Env">
+  
+      <h3 class="TMS4-EnvT">Environment</h3>
+  
+        <p class="TMS4-EnvP">
+          Creating a sleep-friendly environment by reducing noise, light, and electronic distractions in the 
+          bedroom.
+        </p>
+    </div>
+  
+  
+   <div class="TMS4-Te">
+  
+      <h3 class="TMS4-TeT">Techniques</h3>
+  
+        <p class="TMS4-TeP">
+          Encouraging relaxation techniques such as deep breathing, meditation, or gentle stretching before 
+          bedtime to promote better sleep quality.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "TMS4"-->
+
+
+
+<!-- #########################################TMS 5555555555 ###########################################################-->
+  <!-- #######################################TMS 5555555555 ###########################################################-->
+  <!-- #######################################TMS 5555555555 ###########################################################-->
+ <!-- ########################################TMS 5555555555 ###########################################################-->
+  <!-- #######################################TMS 5555555555 ###########################################################-->
+  <!-- #######################################TMS 5555555555 ###########################################################-->
+
+
+  <div class="TMS5">
+
+    <h2 class = "TMS5-Title">14 - 17 years. This age group is getting TOO much sleep!</h2> 
+  
+      <h2 class="TMS5-subT">For this age group, anything more than 13 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="TMS5-Eff">Effects of too much sleep in teenagers:</div>
+  
+        <div class="TMS5-De">
+  
+          <h3 class="TMS5-DeT">Depression</h3>
+            <p class="TMS5-DeP">
+              Increased risk of depression, anxiety, and mood disorders due to disrupted sleep patterns.        
+            </p>
+        </div>
+  
+  
+    <div class="TMS5-PH">
+  
+      <h3 class="TMS5-PHT">Physical Health</h3>
+  
+        <p class="TMS5-PHP">
+          Negative impact on physical health, including weight gain, weakened immune system, and increased 
+          risk of chronic diseases.   
+        </p> 
+      </div>
+  
+  
+   <div class="TMS5-AP">
+  
+      <h3 class="TMS5-APT">Academic Performance</h3>
+  
+        <p class="TMS5-APP">
+          Impaired academic performance and decreased motivation, leading to lower grades and reduced 
+          productivity.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="TMS5-Causes">Causes of constant tiredness in teenagers:</div>
+  
+        <div class="TMS5-BS">
+  
+          <h3 class="TMS5-BST">Busy Schedules</h3>
+            <p class="TMS5-BSP">
+              Academic pressure, extracurricular activities, and part-time jobs resulting in sleep deprivation and irregular sleep schedules.            </p>
+        </div>
+  
+  
+    <div class="TMS5-MaC">
+  
+      <h3 class="TMS5-MaCT">Media and Caffeine</h3>
+  
+        <p class="TMS5-MaCP">
+          Excessive use of electronic devices, social media, and caffeine consumption interfering with 
+          sleep quality and quantity.
+        </p>
+    </div>
+  
+  
+   <div class="TMS5-BC">
+  
+      <h3 class="TMS5-BCT">Biological Changes</h3>
+  
+        <p class="TMS5-BCP">
+          Biological changes during puberty affecting sleep-wake cycles and circadian rhythms, leading to 
+          delayed sleep phase syndrome.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="TMS5-Tips">How to stop constant tiredness in teenagers:</div>
+  
+        <div class="TMS5-SS">
+  
+          <h3 class="TMS5-SST">Sleep Schedule</h3>
+            <p class="TMS5-SSP">
+              Establishing consistent sleep routines with regular bedtimes and wake-up times, even on weekends.            </p>
+        </div>
+  
+  
+    <div class="TMS5-Env">
+  
+      <h3 class="TMS5-EnvT">Environment</h3>
+  
+        <p class="TMS5-EnvP">
+          Creating a sleep-friendly bedroom environment by removing electronic devices, ensuring comfort, 
+          and promoting relaxation.
+        </p>
+    </div>
+  
+  
+   <div class="TMS5-Ls">
+  
+      <h3 class="TMS5-LsT">Lifestyle</h3>
+  
+        <p class="TMS5-LsP">
+          Encouraging healthy lifestyle habits such as regular exercise, balanced nutrition, and stress 
+          management techniques to improve sleep quality and overall well-being.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "TMS5"-->
+
+
+
+  <!-- #######################################TMS 6666666666 ###########################################################-->
+  <!-- #######################################TMS 6666666666 ###########################################################-->
+  <!-- #######################################TMS 6666666666 ###########################################################-->
+ <!-- ########################################TMS 6666666666 ###########################################################-->
+  <!-- #######################################TMS 6666666666 ###########################################################-->
+  <!-- #######################################TMS 6666666666 ###########################################################-->
+
+
+  <div class="TMS6">
+
+    <h2 class = "TMS6-Title">18+ years. This age group is getting TOO much sleep!</h2> 
+  
+      <h2 class="TMS6-subT">For this age group, anything more than 13 hours of sleep is unhealthy.</h2>
+  <br>
+  
+  
+      <div class="TMS6-Eff">Effects of too much sleep in adults:</div>
+  
+        <div class="TMS6-CF">
+  
+          <h3 class="TMS6-CFT">Cognitive Function</h3>
+            <p class="TMS6-CFP">
+              Impaired cognitive function, including memory, attention, and decision-making skills, affecting 
+              work performance and daily functioning            </p>
+        </div>
+  
+  
+    <div class="TMS6-MH">
+  
+      <h3 class="TMS6-MHT">Mental Health</h3>
+  
+        <p class="TMS6-MHP">
+          Increased risk of mental health issues such as depression, anxiety, and mood disorders due to 
+          disrupted sleep patterns.
+        </p> 
+      </div>
+  
+  
+   <div class="TMS6-PH">
+  
+      <h3 class="TMS6-PHT">Physical Health</h3>
+  
+        <p class="TMS6-PHP">
+          Negative impact on physical health, including weight gain, weakened immune system, and higher 
+          risk of chronic diseases like diabetes and heart disease.
+        </p>
+   </div>
+  
+  <!-----------------P2------------->
+  
+  <div class="TMS6-Causes">Causes of constant tiredness in adults:</div>
+  
+        <div class="TMS6-SD">
+  
+          <h3 class="TMS6-SDT">Sleep Disorder</h3>
+            <p class="TMS6-SDP">
+              Undiagnosed sleep disorders such as sleep apnoea, insomnia, or restless leg syndrome disrupting 
+              sleep patterns and causing daytime sleepiness.        </div>
+  
+  
+    <div class="TMS6-PL">
+  
+      <h3 class="TMS6-PLT">Poor Lifestyle</h3>
+  
+        <p class="TMS6-PLP">
+          Lifestyle factors such as excessive alcohol consumption, poor diet, and lack of exercise affecting 
+          sleep quality and quantity.
+        </p>
+    </div>
+  
+  
+   <div class="TMS6-WRS">
+  
+      <h3 class="TMS6-WRST">Work-related Stress</h3>
+  
+        <p class="TMS6-WRSP">
+          Work-related stress, long hours, shift work, and irregular schedules contributing to sleep 
+          deprivation and fatigue.
+        </p>
+   </div>
+  
+  
+   <!-------------P3---------------->
+  
+   <div class="TMS6-Tips">How to stop constant tiredness in adults:</div>
+  
+        <div class="TMS6-SS">
+  
+          <h3 class="TMS6-SST">Sleep Schedule</h3>
+            <p class="TMS6-SSP">
+              Establishing consistent sleep routines with regular bedtimes and wake-up times, even on weekends.
+            </p>
+   </div>
+  
+  
+    <div class="TMS6-Env">
+  
+      <h3 class="TMS6-EnvT">Environment</h3>
+  
+        <p class="TMS6-EnvP">
+          Creating a sleep-friendly bedroom environment by removing electronic devices, ensuring comfort, and 
+          promoting relaxation.
+        </p>
+    </div>
+  
+  
+   <div class="TMS6-Ls">
+  
+      <h3 class="TMS6-LsT">Lifestyle</h3>
+  
+        <p class="TMS6-LsP">
+          Encouraging healthy lifestyle habits such as regular exercise, balanced nutrition, and stress 
+          management techniques to improve sleep quality and overall well-being.
+        </p>
+   </div>
+  
+  
+  
+  </div> <!--For div class = "TMS6"-->
+
+
+
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
+

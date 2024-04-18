@@ -1,0 +1,510 @@
+@media (min-width: 768px) { 
+  .container {
+      width: 75%;
+  }
+
+  .sidebar {
+      width: 25%;
+      float: left;
+  }
+
+  .content {
+      width: 75%;
+      float: right;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.main {
+    padding: 1rem;
+    text-align: justify;
+}
+
+/* Tablet and above */
+@media (min-width: 768px) {
+    .header, .footer {
+        padding: 1.5rem 0;
+    }
+
+    .main {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+}
+
+/* Desktop and above */
+@media (min-width: 992px) {
+    .header, .footer {
+        padding: 2rem 0;
+    }
+
+    .main {
+        max-width: 970px;
+    }
+}
+
+
+
+
+
+
+
+
+body 
+{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: auto;
+    background: url('artistic-blurry-colorful-wallpaper-background (1).jpg');
+    background-size: 200%;
+    
+}
+
+
+
+.container {
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.sign {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #2e186b,
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 50%;
+  top: 40%; /*The higher the number, the further from the top*/
+  font-family: "Clip";
+  /*text-transform: uppercase;*/
+  font-size: 9em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #6a65ff,
+    -0.2rem 0.1rem 1rem #7465ff, 0.2rem 0.1rem 1rem #7465ff,
+    0 -0.5rem 2rem #2824ff, 0 0.5rem 3rem #2f24ff;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+.container-secondary 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #cbcad9;
+    z-index: 1;
+}
+
+/* Gradient background */
+body::before 
+{
+    /*content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(1, 1, 16, 0.922), rgba(68, 50, 172, 0.944));
+    z-index: -1;*/
+}
+
+h1.main-heading
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 8em;
+    white-space: nowrap;
+    z-index: 1;
+    animation: slideIn 2s ease-out forwards;
+}
+
+h2.sub-heading
+{
+    font-size: 1.4em;
+    white-space: nowrap;
+    z-index: 1;
+    top: 56%;
+    left: 50%;
+    animation-delay: 4s;
+}
+
+
+
+div.Dropboxes
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  min-height: 125vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: -350px;
+}
+
+/*######################################### Dropdown stuff ################################################*/
+
+.dropdown
+{
+  height: min-content;
+  min-width: 15em;
+  position: relative;
+  margin: 2em;
+}
+
+.dropdown *
+{
+box-sizing: border-box;
+}
+
+.select
+{
+background: #1c0644;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 2px #1a0442 solid;
+border-radius: 0.5em;
+padding: 1em;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+.select-clicked
+{
+border: 2px #26489a solid; /*might wanna change colour*/
+box-shadow: 0 0 0.8em #26489a; /*same*/
+}
+
+.select:hover
+{
+background: #2f0858; /*same*/
+}
+
+.caret
+{
+width: 0;
+height: 0;
+border-right: 5px solid transparent;
+border-left: 5px solid transparent;
+border-top: 6px solid #fff;
+transition: 0.3s;
+}
+
+.caret-rotate
+{
+  transform: rotate(180deg);
+}
+
+.menu
+{
+  list-style: none;
+  padding: 0.2em 0.5em;
+  background: #6525a9; /*The colour of the actual options of the menu box*/
+  border: 1px #1a0442 solid;
+  box-shadow: 0 0.5em 1em rgba(21, 2, 52, 0.042);
+  border-radius: 0.5;
+  color:#100225;
+  position: absolute;
+  top: 3em;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50);
+  opacity: 0;
+  display: none;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.menu li
+{
+padding: 0.7em 0.5em;
+margin: 0.3em 0;
+border-radius: 0.5em;
+cursor: pointer;
+}
+
+.menu li:hover
+{
+  background: #200053;
+  color:rgb(109, 206, 255) /*Colour of the words in the menu when cursor hovers over it*/
+}
+
+
+.active
+{
+  background: 23242a;
+}
+
+.menu-open
+{
+  display: block;
+  opacity: 1;
+}
+
+/*######################################### Submit Button ################################################*/
+
+.sub-btn
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #071a30;
+  color: rgb(62, 101, 150);
+  width: auto;
+
+  padding: 10px;
+  font-size: 17px;
+
+  border: none;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #020124;
+  box-sizing: border-box;
+
+  margin: 0 auto; /* Used to be margin-right: 190px; */
+  display: block; /* Added this to make it a block element */
+
+  text-decoration: solid;
+  transition: background-color 0.2s, color 0.2s;
+  transition: padding 0.1s;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+
+  /*  align-items: center;
+  top: 10%;
+  left: 50%; [removed these 3 lines] */
+}
+
+.sub-btn:hover
+{
+  background-color: #0a2b52;
+  color: #7a9be8;
+  transition: 0.6s;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+/*############################heading stuff#############################*/
+
+@keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #e6fcff;
+      text-shadow: 0 0 0.6rem #e6f8ff, 0 0 1.5rem #659bff,
+        -0.2rem 0.1rem 1rem #656dff, 0.2rem 0.1rem 1rem #618bfe,
+        0 -0.5rem 2rem #4124ff, 0 0.5rem 3rem #5024ff;
+    }
+    28%,
+    33% {
+      color: #6577ff;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: #2b24ff;
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+
+@keyframes shine {
+    0% {
+      color: #1f186b;
+      text-shadow: none;
+    }
+    100% {
+      color: #e6faff;
+      text-shadow: 0 0 0.6rem #e6faff, 0 0 1.5rem #656dff,
+        -0.2rem 0.1rem 1rem #65a8ff, 0.2rem 0.1rem 1rem #65b7ff,
+        0 -0.5rem 2rem #3324ff, 0 0.5rem 3rem #2424ff;
+    }
+  }
+
+
+
+@keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
